@@ -30,7 +30,7 @@ INSERT INTO products (name, price, count, category_id) VALUES
 ('Yozgi futbolka', 20, 50, 2),
 ('Etiklar', 100, 15, 3),
 ('Krossovkalar', 120, 30, 3),
-('Dunyoni o‘zgartirgan kitoblar', 35, 25, 1), 
+('Macbook Pro', 35, 25, 1), 
 ('Fantastika kitobi', 25, 40, 2), 
 ('Kuzgi palto', 250, 8, 2),
 ('Kir yuvish mashinasi', 450, 5, 3),
