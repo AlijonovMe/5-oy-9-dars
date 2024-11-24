@@ -52,27 +52,27 @@ SELECT * FROM categories LEFT JOIN products ON categories.category_id = products
 
 SELECT * FROM products LEFT JOIN categories ON categories.category_id = products.category_id;
 
--- 1.3
+-- 1.4
 
 SELECT * FROM products LEFT JOIN categories ON categories.category_id = products.category_id WHERE products.category_id IS NULL;
 
--- 1.4
+-- 1.5
 
 SELECT * FROM categories LEFT JOIN products ON categories.category_id = products.category_id WHERE products.category_id IS NULL;
 
--- 1.5
+-- 1.6
 
 SELECT * FROM categories FULL JOIN products ON categories.category_id = products.category_id;
 
--- 1.6
+-- 1.7
 
 SELECT * FROM categories FULL JOIN products ON categories.category_id = products.category_id WHERE products.category_id IS NULL;
 
--- 1.7 
+-- 1.8 
 
 SELECT * FROM categories CROSS JOIN products;
 
--- 1.8
+-- 1.9
 
 SELECT * FROM categories NATURAL JOIN products;
 
