@@ -74,7 +74,7 @@ SELECT * FROM categories CROSS JOIN products;
 
 -- 1.8
 
-SELECT * FROM products NATURAL JOIN categories;
+SELECT * FROM categories NATURAL JOIN products;
 
 -- 2
 
